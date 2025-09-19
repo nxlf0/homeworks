@@ -16,7 +16,7 @@ h3{
     color: red;
 }
 
-ul.food_list{
+ul > li{
     color: khaki;
 }
 
@@ -47,4 +47,8 @@ p.text{
 
 p{
     color: coral;
+}
+
+ul + p{
+    color: cadetblue;
 }
