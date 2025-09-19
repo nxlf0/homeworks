@@ -1,0 +1,50 @@
+@import url("reset.css");
+
+/* *{
+    color: darkslateblue;
+} */
+
+#block_1{
+    color: green;
+}
+
+.first_sub-title{
+    color: blue;
+}
+
+h3{
+    color: red;
+}
+
+ul.food_list{
+    color: khaki;
+}
+
+[class*="sub"]{
+    color: grey;
+}
+
+.title.big{
+    color: crimson;
+}
+
+p.text{
+    color: darkgoldenrod;
+}
+
+.article_sub-title,
+.sub_sub-title{
+    color: darkmagenta;
+}
+
+.article a{
+    color: mediumblue;
+}
+
+.conclusion-text{
+    color: crimson;
+}
+
+p{
+    color: coral;
+}
