@@ -1,0 +1,82 @@
+/* Скидання стилів */
+@import url("reset.css");
+
+/* Локальне підключення шрифтів */
+@import url("fonts.css");
+
+/* Підключення шрифтів */
+/* @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,700&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Alegreya:wght@400;500&display=swap");
+
+h1 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 35px;
+    font-style: oblique;
+    text-align: center;
+    color: rgba(1, 68, 51, 1);
+}
+
+* {
+    font-size: 25px;
+}
+
+#block_1 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    font-style: oblique;
+    color: rgba(1, 68, 51, 0.7);
+}
+
+.block_2 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration-line: underline;
+    text-decoration-thickness: 0rem;
+    text-decoration-style: wavy;
+    text-decoration-color: rgb(52, 9, 106);
+    text-underline-offset: auto;
+}
+
+.text > p {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    word-spacing: 15px;
+    text-align: justify;
+    text-decoration-line: line-through;
+    text-decoration-color: rgb(128, 96, 0);
+    text-decoration-thickness: 0.1rem;
+    text-decoration-style: dotted;
+}
+
+[class*="quote"]{
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    line-height: 50px;
+    text-transform: capitalize;
+    font-style: italic;
+    text-align: right;
+    text-shadow: 5px 5px 5px #000000, 3px -2px 10px rgb(82, 29, 188);
+}
+
+div.article-text {
+    font-family: "Alegreya", serif;
+    font-weight: 400;
+    line-height: 120%;
+    text-transform: lowercase;
+    text-decoration-line: underline;
+    text-decoration-thickness: 2px;
+}
+
+.block_6 {
+    font-family: "Alegreya", serif;
+    font-weight: 500;
+    letter-spacing: 3px;
+    white-space: nowrap;
+    text-transform: uppercase;
+    text-decoration-line: overline;
+    text-decoration-thickness: from-font;
+}
