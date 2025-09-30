@@ -1,5 +1,7 @@
 @import url("reset.css");
 
+@import url("fonts.css");
+
 body {
    color: #2f302c;
    font-family: "Lato", sans-serif;
@@ -32,6 +34,9 @@ body {
 .content {
     display: inline-block;
     vertical-align: top;
+    width: 33.333%;
+    margin-bottom: 68px;
+    padding: 0 34px;
 }
 
 .item_img {
@@ -51,10 +56,4 @@ body {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.25;
-}
-
-.content {
-    width: 33.333%;
-    margin-bottom: 68px;
-    padding: 0 34px;
 }
