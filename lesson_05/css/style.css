@@ -19,7 +19,8 @@ body {
      margin-bottom: 72px;
      font-size: 32px;
      font-weight: 800;
-     line-height: 1.25;
+     text-transform: uppercase;
+     /* line-height: 1.25; */
 }
 
 .items {
